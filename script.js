@@ -1,7 +1,7 @@
 document.addEventListener(
   "DOMContentLoaded",
   () => {
-    console.log("Makeup-Project JS imported successfully!");
+    console.log("Golf-PickUp JS imported successfully!");
   },
   false
 );
