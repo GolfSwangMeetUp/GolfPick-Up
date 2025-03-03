@@ -1,0 +1,145 @@
+/*
+Green 300: #36B37E
+=======================
+Black Background: #1D1F25
+=======================
+Blue Grey
+50 = #F0F4F8 <== lightest
+100 = #D9E2EC
+200 = #BCCCDC
+300 = #9FB3C8
+400 = #829AB1
+500 = #627D98 <== main
+600 = #486581
+800 = #243B53
+900 = #102A43 <== darkest
+*/
+
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto 20rem;
+}
+
+.text-gradient-mint-blue-dark {
+  background: -webkit-linear-gradient(-70deg, #d9e2ec 0%, #36b37e 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 8rem auto;
+}
+
+.home-page-h1 {
+  font-size: 72px;
+  margin-bottom: 0;
+}
+
+.logo {
+  /* width: 25vw;
+  height: 5vh; */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {}
+
+.searchBar {
+  display: flex;
+  flex-direction: column;
+}
+
+.courseTable {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem auto;
+}
+
+table,
+th,
+td {
+  width: 60vw;
+  height: 15vh;
+  border-collapse: collapse;
+}
+
+table td {
+  padding: 1rem;
+  border: 0.25px solid grey;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:last-child {
+  border-right: 0;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #0c172d;
+  border: 10px #7b8da6;
+  border-radius: 10px;
+  box-shadow: 5px 10px 8px #88888863;
+  color: #7788a7;
+}
+
+td:hover {
+  background-color: #1a253c;
+}
+
+a {
+  text-decoration: none;
+  color: #7788a7;
+}
+
+td {
+  align-content: center;
+}
+
+.programingDescription {
+  /* width: 15vw;
+  text-align: left; */
+  padding-bottom: 20px;
+  font-size: 0.75rem;
+  color: #7788a7;
+  position: relative;
+  /* top: 50px;
+  right: 150px; */
+}
+
+@media only screen and (max-width: 600px) {
+
+  /* For mobile: */
+  .homepage-container {
+    padding-left: 80px;
+  }
+
+  .text-gradient-mint-blue-dark {
+    position: relative;
+    right: 240px;
+  }
+
+  table {
+    /* width: 40vw;
+    height: 5vh; */
+
+    position: relative;
+    right: 140px;
+  }
+}
